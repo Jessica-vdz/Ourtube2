@@ -5,8 +5,15 @@
 }
 
 .sideSection {
-    height: 10rem;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    height: fit-content;
     width: 30rem;
     background: aqua;
     color: purple;
+    display: flex;
+    flex-direction: column;
+    h3{
+        color: black;
+    }
 }
