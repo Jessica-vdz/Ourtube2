@@ -1,0 +1,48 @@
+:root {
+  /* Color Palette */
+  --color-primary: #ff0000; /* YouTube-style red */
+  --color-secondary: #272727; /* Surface color for cards, buttons, etc. */
+  --color-background: #0f0f0f; /* Premium dark background */
+  --color-text: #f1f1f1; /* Main text color */
+  --color-text-muted: #aaaaaa; /* Secondary text color */
+}
+
+/* HTML reset including 62.5% trick (so 1rem = 10px) */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+/* Box-sizing inheritance & Margin/Padding reset */
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base Body Styles */
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Inter', Roboto, 'Helvetica Neue', sans-serif;
+  font-size: 1.4rem; /* 14px default base size */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Media resets */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Form element resets */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Typography resets */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,5 @@
+.videoSuggestions {
+    height: 100vh;
+    background-color: var(--color-secondary);
+    border: 1px solid red;
+}
