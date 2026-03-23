@@ -13,6 +13,7 @@
     color: purple;
     display: flex;
     flex-direction: column;
+    padding: 2rem 0;
     h3{
         color: black;
     }
