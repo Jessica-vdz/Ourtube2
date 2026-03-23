@@ -3,3 +3,10 @@
     background-color: var(--color-secondary);
     border: 1px solid red;
 }
+
+.sideSection {
+    height: 10rem;
+    width: 30rem;
+    background: aqua;
+    color: purple;
+}
